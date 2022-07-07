@@ -4,9 +4,9 @@ import psycopg2
 # task 1
 connection = psycopg2.connect(
     user = 'postgres',
-    password = '7285770',
-    host = 'localhost',
-    port = '5432',
+    password = '',
+    host = '',
+    port = '',
     database = 'movie_db'
 )
 
